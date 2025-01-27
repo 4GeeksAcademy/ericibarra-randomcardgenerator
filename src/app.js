@@ -21,7 +21,6 @@ function updateCounter() {
 
 }
 
-
 document.getElementById('newCard').onclick = function () {
   generateCard();
 };
@@ -37,7 +36,6 @@ function generateCard() {
   let numberSuit = document.querySelector("#cardNumber");
   numberSuit.innerHTML = number[randomCardNumber];
 
-  document.getElementById("suit").innerHTML = `${generateIcon(randomSuitNumber)}`;
   document.getElementById("suit").innerHTML = `${generateIcon(randomSuitNumber)}`;
 
 };
